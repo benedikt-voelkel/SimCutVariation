@@ -1,0 +1,11 @@
+# Set fixed if different from default
+fixed:
+  generator: "pythia8"
+  engine: "TGeant4"
+  configKeyValues:
+
+
+vary:
+  mode: 1 # 1: keep all at default while varying one parameter after the other
+  configKeyValues:
+    
